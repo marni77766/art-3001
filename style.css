@@ -6,11 +6,13 @@ h3,
     text-align: center;
     text-shadow:  0 0 20px red;
     font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
 }
 a {
     color: darkorchid;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
+    font-size: xx-large;
 }
 .unique-class {
 text-align: center;

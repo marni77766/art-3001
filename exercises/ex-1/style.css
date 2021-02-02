@@ -1,0 +1,70 @@
+.deer {
+    position: relative;
+    text-align: center;
+}
+
+.deer-heading,
+h3 {
+    text-align: center;
+}
+
+.deer-style {
+    background-color: black;
+    color: plum;
+    text-shadow: whitesmoke;
+}
+
+.mary {
+    position: relative;
+    text-align: center;
+}
+
+.mary-style {
+    background-color: black;
+    color: plum;
+}
+
+.nighttime {
+    background-color: black;
+    color: plum;
+    text-shadow: whitesmoke;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.daytime {
+    background-color:lightblue;
+    color: whitesmoke;
+    text-shadow: hotpink 0 0 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.start {
+    background-color: plum;
+    color: white;
+    text-shadow: red 0 0 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.oops-start {
+    background-color: paleturquoise;
+    color: plum;
+    text-shadow: rebeccapurple 0 0 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.just-die {
+    background-color: lightblue;
+    color: white;
+    text-shadow: plum 0 0 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
