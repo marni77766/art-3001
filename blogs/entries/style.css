@@ -1,6 +1,8 @@
-.blog-b {
+.blog-b,
+.blog-a {
     background-color: plum;
     color: white;
     text-shadow: red 0 0 10px;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
