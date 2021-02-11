@@ -3,73 +3,103 @@ h2,
 h3,
 .heading-style
 {
-    text-align: center;
-    text-shadow:  0 0 20px red;
-    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    font-family: 'light pixel-7';
     font-size: xx-large;
+    color: red;
+    text-shadow: magenta 0 0 10px;
+    font-weight: lighter;
+    border: solid darkorchid 0px;
 }
 a {
-    color: darkorchid;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    font-size: xx-large;
-}
-.unique-class {
-text-align: center;
-text-shadow: 2px 2px blue;
-text-decoration: underline;
-text-transform: capitalize;
-font-family: 'Roboto Mono', monospace;
-
-}
-
-.red-text {
-    text-align: center;
     color: red;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.crazy-font{
+    font-family: light pixel-7;
     text-align: center;
-    font-style:italic;
-    text-decoration: overline;
-    font-weight: 900;
-    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
+    font-weight: lighter;
+    text-shadow: magenta 0 0 20px;
 }
 
-.styled-like-headings{
 
-}
-
-.upside-down{
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .header {
+    background-color: black;
+    padding: 20px;
     text-align: center;
-    transform: scale(1, -1);
-    font-family: 'Roboto Mono', monospace;
-}
-
-.boxed{
+    border: solid blueviolet 3px;
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
     text-align: center;
-    border: 5px solid red;
-    width: 300px;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Roboto Mono', monospace;
-    
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: black;
+    color: magenta;
+  }
+  
+  
+  .column {
+    border: blueviolet solid 3px;
+    text-align: centers;
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    padding: 15px;
+    background: black;
+    color: magenta;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background: black;
+    color: orchid;
+  }
+  
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
-.image{
-    background-image: linear-gradient(red, yellow);
-}
 
 
-body {
-    text-align: center;
-}
 
-div {
-    text-align: center;
-}
 
-.center {
-    position: relative; left: 37%; margin-left: 0px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
