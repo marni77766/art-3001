@@ -31,3 +31,12 @@ h2 {
   font-weight: bold;
 
 }
+
+.blog-c {
+  color: black;
+  background-color: #E6A9EC;
+  font-family: 'Saira', sans-serif;
+  font-size: large;
+  text-shadow: blue 0 0 40px;
+  
+}
