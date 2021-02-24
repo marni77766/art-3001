@@ -29,45 +29,88 @@ a {
   }
   
   .header {
-    background-color:#9E7BFF;
     padding: 20px;
-    text-align: center;
-    border: solid blueviolet 3px;
+    float: left;
+    
+    font-family: 'Roboto Mono', monospace;
   }
   
+
+  .header-two {
+    float: right;
+    padding: 20px;
+    
+    font-family: 'Roboto Mono', monospace;
+  }
+  h1 {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+   
+    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  } 
+
   
   .topnav {
     overflow: hidden;
-    background-color: #9E7BFF;
+    
   }
   
   
   .topnav a {
-    float: left;
+    
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 18px 0 10px;
     text-decoration: none;
   }
   
   
-  .topnav a:hover {
-    background-color: #9E7BFF;
-    color: magenta;
-  }
   
   
-  .column {
+  
+  .left {
     border: blueviolet solid 3px;
     text-align: centers;
     float: left;
-    width: 33.33%;
+    width: 300px;
     height: 400px;
     padding: 15px;
     background: #9E7BFF;
     color: orchid;
+    margin: 10px;
+    opacity: 50%;
   }
   
+  .right {
+    border: blueviolet solid 3px;
+    text-align: centers;
+    float: right;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    background: #9E7BFF;
+    color: orchid;
+    margin: 10px;
+    opacity: 50%;
+  }
   
   .row:after {
     content: "";
@@ -93,13 +136,40 @@ a {
     background: #000
   }
 
+ .background { background: url(homepage_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+}
   @media screen and (max-width:600px) {
     .column {
       width: 100%;
     }
   }
 
+  #element{
+    width: 156px;
+    height: 156px;
+    border: 2px solid #ff99c8;
+    border-radius: 156px 156px 156px 156px;
+    background: rgba(255, 153, 200);
+    margin: 35px auto;
+    -webkit-transition: all 1s ease;
+}
 
+#element:hover {
+  background:rgba(150, 213, 234,0);
+  border: #ff99c8 0px;
+  -webkit-transform: rotate(180deg);
+}
+
+
+
+
+  
 
 
 
