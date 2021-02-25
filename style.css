@@ -87,29 +87,89 @@ a {
   
   
   .left {
-    border: blueviolet solid 3px;
     text-align: centers;
     float: left;
-    width: 300px;
-    height: 400px;
+    width: 150px;
+    height: 100px;
     padding: 15px;
-    background: #9E7BFF;
+    background: #ff99c8;
     color: orchid;
     margin: 10px;
-    opacity: 50%;
+    opacity: 30%;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+   
+    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
+  .left-middle{
+    margin: 0 20px 0 20px;
+  }
+  .left:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    opacity: 100%;
+    background-image: ;
+    color: red;
+    text-shadow: red 0 0 10px;
+    height: 200px;
+    width: 300px;
+  } 
   
   .right {
-    border: blueviolet solid 3px;
     text-align: centers;
     float: right;
     width: 300px;
-    height: 400px;
+    height: 200px;
     padding: 15px;
     background: #9E7BFF;
     color: orchid;
     margin: 10px;
-    opacity: 50%;
+    opacity: 30%;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+   
+    
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .right:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    opacity: 100%;
+    background-color: black;
+    color: red;
+    text-shadow: red 0 0 20px;
+  } 
+
+  .right-middle {
+    margin: 0 20px 0 20px;
   }
   
   .row:after {
@@ -141,6 +201,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
   }
   
 }
