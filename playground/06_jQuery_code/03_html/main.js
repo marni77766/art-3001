@@ -5,5 +5,5 @@ $(document).ready(function() {
   console.log(contents);
   
   // or set the html content
-  $('#third').html("This is the <b>updated</b> text!!");
+  $('#third').html("This is the <b>updated</b> <i>text</i>!!");
 });

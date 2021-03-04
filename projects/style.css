@@ -1,0 +1,14 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    color: red;
+    text-shadow: magenta 0 0 10px;
+}
+body {
+    background-image: url(Untitled_Artwork\ 7.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
