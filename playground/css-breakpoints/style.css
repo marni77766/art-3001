@@ -1,0 +1,19 @@
+.demo {
+    font-size: 5rem;
+    background: red;
+    width: 50%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .demo {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .demo {
+        background: blue;
+    }
+}
