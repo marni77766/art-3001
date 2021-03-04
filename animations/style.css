@@ -4,8 +4,41 @@
     font-family: 'DotGothic16', sans-serif;
     font-size: large;
 }
+.header-one {
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    color: red;
+    text-shadow: magenta 0 0 10px;
+    float: left;
+}
+.header-two {
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    color: red;
+    text-shadow: magenta 0 0 10px;
+    float: right
+}
+h1:hover {
+    color: black;
+    text-shadow: magenta 0 0 10px;
+    font-size: 4em;
+}
+.background { background: url(Untitled_Artwork\ 7.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    }
 
-.home {
-    background-image: linear-gradient(to right, #E0B0FF, pink);
-    font-size: larger;
+
+a {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 5em;
+    color: black;
+    text-shadow: magenta 0 0 3px;
+}
+a:hover {
+    color: red;
+    text-shadow: magenta 0 0 10px;
 }
