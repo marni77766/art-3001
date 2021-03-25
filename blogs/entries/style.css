@@ -57,3 +57,22 @@ h2 {
   float: right;
   
 }
+
+.blog-h {
+  text-align: end;
+  margin-left: 700px;
+  margin-right: 700px;
+  background: plum;
+  font-size: larger;
+  margin-top: 600px;
+  margin-bottom: 600px;
+}
+
+h3 {
+  text-align: center;
+  margin-left: 700px;
+  margin-right: 700px;
+  background: plum;
+  font-size: larger;
+  margin-top: 600px;
+}

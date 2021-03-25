@@ -1,0 +1,94 @@
+body {
+    background-color:#EEE6FD;
+}
+.blob2 {
+    position: absolute;
+    animation: pulse2 5s infinite;
+    width: calc(100%-40px);
+    text-align: right ;
+    height: 60%;
+    animation-delay: 2s;
+}
+ 
+.blob3 {
+    position:absolute;
+    animation: pulse 7s infinite;
+    height: 90%;
+    width: calc(100%-70px);
+    text-align: left;
+}
+ 
+.blob4 {
+    animation: pulse2 9s infinite;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 1000px;
+    top: 1200px;
+
+}
+.blob5 {
+    animation: pulse2 11s infinite;
+    height: 65%;
+    width: 65%;
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+}
+ 
+.blob6 {
+    animation: pulse 10s infinite;
+    position: absolute;
+    bottom: 300px;
+    right: 300px;
+}
+
+.bubble {
+    width: 40%;
+    height: 40%;
+    animation: bubble 9s infinite;
+    position: relative;
+    left: 400px;
+    right: 400px;
+}
+
+@keyframes bubble {
+    from {transform: scale(1);
+        }
+    50% { transform: scale(0.7);}
+    to {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes pulse {
+    from {
+        transform: scale (1);
+        opacity: 1;     
+    }
+    50% {
+        transform: scale(1.2)
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+ 
+}
+ 
+@keyframes pulse2 {
+    from {
+        transform: scale (1);
+        opacity: 1;     
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+ 
+}
