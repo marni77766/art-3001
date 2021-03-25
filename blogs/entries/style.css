@@ -76,3 +76,19 @@ h3 {
   font-size: larger;
   margin-top: 600px;
 }
+
+.blog-i {
+  text-align: end;
+  margin-left: 700px;
+  margin-right: 700px;
+  background: plum;
+  font-size: larger;
+  margin-top: 600px;
+  margin-bottom: 600px;
+}
+
+.blog-i-body {
+  background-image: url(sky.jpeg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
