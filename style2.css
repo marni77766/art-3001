@@ -1,0 +1,114 @@
+h3 {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-image: url(Sky.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 700px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr .5fr;
+    
+}
+.one {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 500px;
+    margin-top: 50px;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+    /* background-image: url(towelme.PNG); */
+    background-size: cover;
+}
+
+.one:hover {
+    opacity: 100%;
+    width: 45vh;
+    height: 45vh;
+    background-image: url(towelme.PNG);
+}
+.two {
+    width: 15vh;
+    height: 15vh;
+    margin-top: 50px;
+    margin-left: 250px;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+
+}
+.three {
+    width: 15vh;
+    height: 15vh;
+    margin-right: 300px;
+    margin-top: 50px;
+    grid-row: 1/3;
+    grid-column: 3/3;
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.four {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 500px;
+    margin-top: 100px;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+
+}
+.five {
+    width: 15vh;
+    height: 15vh;
+    margin-top: 100px;
+    margin-left: 250px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+
+}
+.six {
+    width: 15vh;
+    height: 15vh;
+    margin-right: 300px;
+    margin-top: 100px;
+    grid-row: 2/3;
+    grid-column: 3/3;
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 900px;
+
+}
+
+@media screen and (max-width:600px) {
+    .container {
+      width: 100%;
+    }
+  }

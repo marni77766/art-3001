@@ -1,32 +1,50 @@
+#graphic {
+    position: relative;
+}
+
 .blob1 {
     position: relative;
     margin-left: 600px;
     margin-right: 0px;
+    margin-top: 300px;
+    margin-bottom: 600px;
     grid-column: 1;
     grid-row: 1;
-    /* animation: pulse 22s infinite; */
+    animation: pulse 22s infinite;
 }
 
 .blob2 {
     position: relative;
     margin-bottom: 0px;
     margin-left: 0px;
+    margin-top: 300px;
+    margin-bottom: 600px;
     grid-column: 1;
     grid-row: 1;
-    /* animation: pulse 21s infinite; */
+    animation: pulse 21s infinite;
+}
+
+.blob2 :hover {
+
 }
 
 .blob4 {
     position: relative;
-    
-    /* animation: pulse 10s infinite; */
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 0px;
+    animation: pulse 10s infinite;
 }
 
 .blob3 {
     position: relative;
-   
-    /* animation: pulse 17s infinite; */
-    margin-top: 500px;
+   grid-column: 1;
+   grid-row: 1;
+   margin-bottom: 600px;
+    animation: pulse 17s infinite;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 200px;
 }
 
 .blob5 {
@@ -50,10 +68,10 @@
 .container {
     background-color: #EEE6FD;
     display: grid;
-    width: 100vh;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    width: 50vh;
+    height: 50vh;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr .5fr;
 }
 
 .blob8 {
@@ -78,4 +96,52 @@
         
     }
  
+}
+
+
+
+
+.box {
+    border: solid 2px whitesmoke;
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 1000px;
+    font-size: large;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: plum;
+    opacity: 40%;
+    width: 200px;
+    padding: 50px;
+    color: rebeccapurple;
+}
+
+.box:hover {
+    border: solid 2px whitesmoke;
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 1000px;
+    font-size: large;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: plum;
+    opacity: 70%;
+    width: 200px;
+    padding: 50px;
+    color: rebeccapurple;
+}
+
+.box-2 {
+    border: solid 2px whitesmoke;
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 1000px;
+    font-size: large;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: plum;
+    opacity: 40%;
+    width: 200px;
+    padding: 50px;
+    color: rebeccapurple;
 }
