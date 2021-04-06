@@ -12,6 +12,13 @@ body {
     min-width: 700px;
 }
 
+.body2 {
+    background-image: url(sky2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 700px;
+}
+
 .container {
     display: grid;
     grid-template-columns: .5fr .5fr .5fr;
