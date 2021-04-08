@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reeeeeeeelllllllllaaaaaaaaxxxxxxxxxxxxx</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="container">
-    <div class="blob"></div>
+        <a href="https://triage.itch.io/waking-up-while-the-sun-sets"><div class="blob3"><img id="blob3" src="blob3.svg" alt="" height="500px" width="500px" onmouseover="this.src='blob3hover.svg'" onmouseout="this.src='blob3.svg'"></div></a>
+        <div class="blob2"><img id="blob2" src="blob2.svg" alt="" height="500px" width="500px" onmouseover="this.src='blob2 hover.svg'" onmouseout="this.src='blob2.svg'"></div>
+        <div class="blob1"><img id="blob1" src="blob1.svg" alt="" height="500px" width="500px" onmouseover="this.src='blob1hover.svg'" onmouseout="this.src='blob1.svg'"></div>
+        <div class="blob3"><img id="blob3" src="blob3.svg" alt="" height="500px" width="500px" style="margin-top: 100px;"></div>
+         <div class="blob5"><img src="blue.svg" alt=""></div>
+         <div class="blob6"><img src="purpandpink.svg" alt="" ></div>
+       <div class="blob7"><img src="blue.svg" alt=""></div>
+
+    <script src="script.js"></script>
+    <div class="container">
+        <img id="graphic" src="aaa.svg" alt="" height="100px" width="100px">
+        <script>
+            const downKeys = new Set();
+            let x = 0;
+            let y = 0;
+            const graphic = document.getElementById('graphic');
+            document.addEventListener('keydown', event => downKeys.add(event.key));
+            document.addEventListener('keyup', event => downKeys.delete(event.key));
+        
+            function update() {
+                function isDown(key) {return downKeys.has(key)}
+                const s = graphic.style;
+                const d = isDown('Shift') ? 10 : 1;
+                if (isDown('ArrowDown'))   s.top  =  (y += d)  + 'px';
+                if (isDown('ArrowUp'))     s.top  =  (y -= d)  + 'px';
+                if (isDown('ArrowRight'))  s.left = (x += d)   + 'px';
+                if (isDown('ArrowLeft'))   s.left = (x -= d)   + 'px';
+                window.requestAnimationFrame(update);
+            }
+        
+            window.requestAnimationFrame(update);
+        </script>
+
+       
+    </div>
+        
+
 </body>
 </html>
