@@ -66,6 +66,40 @@ body {
 }
 
 
+.box {
+    border: solid 2px whitesmoke;
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 1000px;
+    font-size: large;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    /* background-color: #feeafa; */
+    background-image: url(background1.png);
+    opacity: 40%;
+    width: 200px;
+    padding: 50px;
+    color: #cbc0d3;
+}
+
+.box:hover {
+    border: solid 2px whitesmoke;
+    text-align: center;
+    margin-left: 850px;
+    margin-right: 1000px;
+    font-size: large;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: #efd3d7;
+    opacity: 70%;
+    width: 200px;
+    padding: 50px;
+    color: rebeccapurple;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
 
 @keyframes pulse {
     from {
