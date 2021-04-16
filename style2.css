@@ -5,6 +5,12 @@ h3 {
     font-family: 'Inconsolata', monospace;
 }
 
+.nav {
+    text-align: center;
+    margin-bottom: 150px;
+    font-family: 'Inconsolata', monospace;
+}
+
 body {
     background-image: url(Sky.jpeg);
     background-repeat: no-repeat;
@@ -19,20 +25,15 @@ body {
     min-width: 700px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: .5fr .5fr .5fr;
-    grid-template-rows: .5fr .5fr .5fr;
-    
-}
+
 .one {
     width: 15vh;
+    position: relative;
     height: 15vh;
-    margin-left: 500px;
-    margin-top: 50px;
-    grid-row: 1/3;
-    grid-column: 1/3;
-    border: solid 1px whitesmoke;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+    border: solid 3px whitesmoke;
     opacity: 50%;
     font-size: small;
     font-family: 'Inconsolata', monospace;
@@ -41,18 +42,18 @@ body {
 }
 
 .one:hover {
-    opacity: 100%;
+    opacity: 80%;
     width: 45vh;
     height: 45vh;
-    background-image: url(towelme.PNG);
+    background-image: url(hand.PNG);
+    border: solid 0px whitesmoke;
 }
 .two {
     width: 15vh;
     height: 15vh;
-    margin-top: 50px;
-    margin-left: 250px;
-    grid-row: 1/3;
-    grid-column: 2/3;
+    margin-top: 5%;
+    margin-left: 20%;
+    
     border: solid 1px whitesmoke;
     opacity: 50%;
     font-size: small;
@@ -62,25 +63,37 @@ body {
 .three {
     width: 15vh;
     height: 15vh;
-    margin-right: 300px;
-    margin-top: 50px;
-    grid-row: 1/3;
-    grid-column: 3/3;
-    border: solid 1px whitesmoke;
+    margin-right: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+    border: solid 3px whitesmoke;
     opacity: 50%;
     font-size: small;
     font-family: 'Inconsolata', monospace;
 
 }
 
+.extra {
+    width: 15vh;
+    height: 15vh;
+    margin-top: 5%;
+    margin-left: 20%;
+    
+    border: solid 1px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+
+
+}
 .four {
     width: 15vh;
     height: 15vh;
-    margin-left: 500px;
-    margin-top: 100px;
-    grid-row: 2/3;
-    grid-column: 1/3;
-    border: solid 1px whitesmoke;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+    border: solid 3px whitesmoke;
     opacity: 50%;
     font-size: small;
     font-family: 'Inconsolata', monospace;
@@ -89,10 +102,9 @@ body {
 .five {
     width: 15vh;
     height: 15vh;
-    margin-top: 100px;
-    margin-left: 250px;
-    grid-row: 2/3;
-    grid-column: 2/3;
+    margin-top: 5%;
+    margin-left: 20%;
+    
     border: solid 1px whitesmoke;
     opacity: 50%;
     font-size: small;
@@ -102,18 +114,72 @@ body {
 .six {
     width: 15vh;
     height: 15vh;
-    margin-right: 300px;
-    margin-top: 100px;
+    margin-right: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: solid 3px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 0px;
+
+}
+
+.seven {
+    width: 15vh;
+    height: 15vh;
+    margin-left: 35%;
+    margin-top: 5%;
     grid-row: 2/3;
-    grid-column: 3/3;
+    grid-column: 1/3;
+    border: solid 3px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+
+}
+.eight {
+    width: 15vh;
+    height: 15vh;
+    margin-top: 5%;
+    margin-left: 20%;
+    
     border: solid 1px whitesmoke;
     opacity: 50%;
     font-size: small;
     font-family: 'Inconsolata', monospace;
-    margin-bottom: 900px;
+
+}
+.nine {
+    width: 15vh;
+    height: 15vh;
+    margin-right: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: solid 3px whitesmoke;
+    opacity: 50%;
+    font-size: small;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 300px;
 
 }
 
+.broider {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAADDklEQVR4Xu2cS3LcMAwF5fsfOq5kE4tSsdUCqFEqz1uCINh8AD8znq9t235ttb8v6F71b6OjeEZ/rfH9HrzqkCZQ9R+gA4EAlZKIQn8A60h54k/AqT+1P50B03gClJZLtgeoBEbmAUqEZHsHUKqRY42r2tuaOY5H/a39DnmAHhUYoJCVFpC1j0KbF0ADpRWzNVGW+Y3G/7S/AF15Nb6yKZFColB59QxQUVSuKFS4+2NKC2D9jfbWf9We3k93/gOUz6EBOhCIQpvPiY8DJUlXa1i1Ztr+3QCJz6GGUocA3ROYPvacnSGXvsZYud2wj0JvQJt1eT1QCpDam3kd3D09/nS8KylPAVN7gMpzXIAOd3na5QkYtUehRQIEmF6nisMfutOphcajeHf+r9RQGtCeUylAOx7ZBygRku0BKoGR+eNAqwPShJ5OcdpkKV4qYVP/K95DbUB2gta+KhgSxGFTqg5IE6SAqH+1vTo/ij9A5QqVgdI5klKaFEEByvmiOcWDDszN8ayGBugcMT6O0LfjaIWrC2AVYu0pfusvQC0xsC8DpXisAt5eQ218uMuXHBL9ky9CXOhSMlm94AEqU5pWM0A/DdSmDK2oLSnkj9op/uopRSuUAqIJ0UXA9rf2FH+ASqIBKoGR+euAjgFTgDTBp2tod/zT+V25y3cHFKAD0Sh0otEolAqUbP8fgFZf0wjproQFaPNvrgRogFIGHtpfl/LVXZ0I2Ksf+bPtNL5qv5LyAbpfoqniA5T/8y8KlTmvgJ38Etvh2ERXS3tVpBJBE5A82s1tfAEqX+yVQM7UR8cMkoQKoOHHDCke2x6FWmJvV2i3Iq1CLM+l/jtSPkB/LGmA1u/yuwwJ0AVAKWU/XaO6ax6dq+mUM+V1dvW0AEf71QCqAgjQhz/TikJlSr1OoTalrb0tIVVA9Jah1utODbWArH2ANl/lAjRA/xK4k/Kqptwwppp4w+WuS/XYNR0/QKvLM/QP0AAtE/jnUt7WwKUTPMFP8ZXiWZHyFHDrQfqGXim+AJVQA1QCI/OlQL8BrRlgJJDIipgAAAAASUVORK5CYII=") 28 /  28px / 0 round;
+    border-width:  1vh;
+    border-style:  solid;
+    padding-left: 400px;
+    padding-top: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 900px;
+}
+
+.broider:hover {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACPElEQVR4Xu2aW27DMAwElfsfukWBAkXsIBt6VzblTn/5EDlaSqjix+j/97Up8dG55NbF/YIDaFhBAAVomICZTilS2c3lvfCOZ6gCpuweETMaoCbAbThA/wHQbYutR3wFhQI0PDUABegfgQ6XkntGuvFRPQA0inMMgAJ0R4CRL4qiFTBVe4eRVzUCVBEq2gFaBKbcAaoICbsCqOzm8l54xzNUAVN2j4gZDVAT4AqvTUqByh5GVEvXUaG8NtX2sOzdWpErjDwKLWuuFoBCa7zu5b3CpbQUcYCGtwugDYAudUkc4GX1d0Sh1oIHGjw7xOoPoPvtAmhYwnGgVsIxhhsf5rNL59b3Nv7VyE9dcDatD/JP7Q+g9W8TUOhGtdMVqhaYbf9gSi2X2fU/5f8Z+VMXHPURs2ie3R9Aw4IC6ASg6RdydYS4I+zGu/Vxy599y6PQmuZR6NUKVfvlnkEq/9V2qz+e73i+my5gFBpGfDrQcP33SnfkDL0XgXA3AAVomEA43QoKtS6JMC+ZDqASUc0BoDVe0hugElHNoSNQdWYqe41A2BugAJU/KoYR1dKh0Bov6d0RaPoXBAkh6QDQJM0LPjo4Un7rW33bEAo9ssVvYjoAdRXoxkeRAjSK8/wPt16V7yrMjY8iRaFRnD0UqlpqpUBVbAeFqhoBqggV7QAtAlPuAFWEhF0BVHZzeS+84xmqgCm7R8SMBqgJcIX/5ZUClT2MqJauo0J5D63tYdm7tSJXGHkUWtZcLWAphX4D/UigUUTGoNwAAAAASUVORK5CYII=") 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid;
+}
 @media screen and (max-width:600px) {
     .container {
       width: 100%;
