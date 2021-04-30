@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Inconsolata', monospace;
+    background-color: #96c6ea;
+    color: orchid;
+    background-image: url(Sky.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 900px;
+}
+
+a {
+    opacity: 50%;
+}
+a:hover {
+    font-size: 70px;
+    opacity: 100%;
+}
+
+h2 {
+    opacity: 50%;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+h2:hover {
+    font-size: 70px;
+    opacity: 100%;
+}
+

@@ -1,9 +1,31 @@
 body {
     text-align: center;
     font-size: xx-large;
-    font-family: 'Roboto Mono', monospace;
-    background-color: plum;
+    font-family: 'Inconsolata', monospace;
+    background-color: #96c6ea;
     color: orchid;
-    text-shadow: whitesmoke 0 0 10px;
-    background-image: url(https://78.media.tumblr.com/db7e5baa55305043d5e5c417d75643b8/tumblr_inline_p5290yuvCF1srqbg9_500.jpg);
+    background-image: url(Sky.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 900px;
 }
+
+a {
+    opacity: 50%;
+}
+a:hover {
+    font-size: 70px;
+    opacity: 100%;
+}
+
+h2 {
+    opacity: 50%;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+h2:hover {
+    font-size: 70px;
+    opacity: 100%;
+}
+

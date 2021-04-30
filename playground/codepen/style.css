@@ -1,0 +1,72 @@
+body,
+html {
+	height: 100%;
+	display: grid;
+
+	background: rgb(255, 205, 134);
+	background: linear-gradient(
+		45deg,
+		plum 0%,
+		rgb(187, 120, 231) 100%
+	);
+}
+
+form {
+	margin: auto;
+}
+
+input {
+	display: none;
+}
+
+label {
+	display: grid;
+	width: min(50vw, 50vh);
+	height: min(50vw, 50vh);
+	text-align: center;
+	border-radius: 100%;
+	border: .5px solid whitesmoke;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	cursor: pointer;
+}
+
+#on:not(checked) + label {
+	animation: switchOff 1s;
+	background-color: plum;
+}
+#on:checked + label {
+	animation: switchOn 1s;
+	background-color: plum;
+}
+span {
+	margin: auto;
+}
+#on + label > span::after {
+	content: "OFF";
+}
+
+#on:checked + label > span::after {
+	content: "ON";
+}
+
+@keyframes switchOn {
+	0% {
+		background-color: orchid;
+	}
+	100% {
+		background-color: lightpink;
+		transform: rotatey(360deg);
+	}
+}
+
+@keyframes switchOff {
+	0% {
+		background-color: darkorchid;
+	}
+	100% {
+		background-color: orchid;
+		transform: rotatey(360deg);
+	}
+}
