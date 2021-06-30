@@ -9,3 +9,26 @@
     text-align: center;
     background: #000
   }
+
+  body {
+    background-color: #d391aa;
+  }
+
+  .pinkgirl1 {
+    margin-left: 25%;
+    margin-top: 150px;
+    display: inline;
+  }
+
+
+  .pinkgirl2 {
+    margin-left: 25%;
+    margin-top: 150px;
+    display: inline;
+  }
+
+  .pinkgirl3 {
+    margin-left: 25%;
+    margin-top: 150px;
+    display: inline;
+  }
